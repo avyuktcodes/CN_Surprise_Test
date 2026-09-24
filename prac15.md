@@ -41,7 +41,7 @@ This network includes:
 
 Unlike Tutorial 10, all addressing here comes from **one classful network, `192.168.20.0/24`**, subnetted with VLSM so the LANs and the WAN links use *different* mask lengths.
 
-![Figure](/Users/avyukt/Desktop/CN/Screenshots/ss1.png)
+![Figure](Screenshots/ss1.png)
 
 ---
 
@@ -103,7 +103,7 @@ Follow these steps for **R0**, **R1**, and **R2**:
 | R0   | R1 | se0/0 ↔ se1/0   |
 | R1   | R2 | se0/0 ↔ se1/0   |
 
-![Figure](/Users/avyukt/Desktop/CN/Screenshots/ss2.png)
+![Figure](Screenshots/ss2.png)
 
 ---
 
@@ -254,9 +254,9 @@ write memory
 exit
 ```
 
-![Figure](/Users/avyukt/Desktop/CN/Screenshots/ss4.0.png)
-![Figure](/Users/avyukt/Desktop/CN/Screenshots/ss4.1.png)
-![Figure](/Users/avyukt/Desktop/CN/Screenshots/ss4.2.png)
+![Figure](Screenshots/ss4.0.png)
+![Figure](Screenshots/ss4.1.png)
+![Figure](Screenshots/ss4.2.png)
 
 ---
 
@@ -284,7 +284,7 @@ You should see RIP routes (`R`) to all remote networks, each showing its **corre
 show ip route rip
 ```
 
-![Figure](/Users/avyukt/Desktop/CN/Screenshots/ss5.2.png)
+![Figure](Screenshots/ss5.2.png)
 
 ### Step 5.3 – Test Connectivity
 
@@ -301,7 +301,7 @@ From **PC3**, ping **PC4**:
 ping 192.168.20.140
 ```
 
-![Figure](/Users/avyukt/Desktop/CN/Screenshots/ss5.3.png)
+![Figure](Screenshots/ss5.3.png)
 
 Repeat pings between any devices across networks.
 
